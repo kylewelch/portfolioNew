@@ -11,7 +11,7 @@ function GraphBar(props) {
   }
   const style = {
     height: height + "px", 
-    backgroundImage: "linear-gradient(" + props.bar[1] + ", " + "#1781FD)"
+    backgroundImage: "linear-gradient(" + props.bar[1] + ", #1781FD)"
   }
   return (
     <div className="GraphBar" style={style}>

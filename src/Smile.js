@@ -17,7 +17,7 @@ function Smile() {
           <div className={blink ? "eye eye-left" : "eye"}></div>
           <div className="eye"></div>
         </div>
-        <div className="mouth"><img src={smile} /></div>
+        <div className="mouth"><img src={smile} alt="smile" /></div>
       </div>
     </>
   );
